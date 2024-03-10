@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px ;
+}
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px ;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+#btn2{
+    border: none;
+    background-color: rgb(173, 76, 41);
+}
+#main>h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    object-position: top;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+
+}
+#img4{
+    transform: translate(-50%,-50%) rotate();
+
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
+#nav-part4 i{
+    position: absolute;
+    bottom: 10%;
+    right: 4%;
+    font-size: 20px;
+}
+#nav-part5{
+    position: absolute;
+    bottom: 9.5%;
+    right: 7%;
+    font-size: 20px;
+}
+#nav-part6{
+    position: absolute;
+    bottom: 9.5%;
+    right: 10%;
+    font-size: 20px;
+}
